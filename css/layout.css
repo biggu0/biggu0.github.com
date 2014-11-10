@@ -1,0 +1,27 @@
+body{
+
+	background: #3a3f41;
+	font-size:12px ;
+	font-family:微软雅黑,Arial ;
+}
+.gl-container{
+	width: 780px;
+	max-width: 780px;
+	margin: 0 auto;
+	padding: 40px 0 20px;
+	
+}
+.gl-header{
+	float: left;
+	width: 48.33333%;
+	height: 40px;
+}
+.gl-right{
+	float: right;
+	width:48.33333%;
+
+}
+.gl-left{
+	float: left;
+	width:48.33333%;
+}

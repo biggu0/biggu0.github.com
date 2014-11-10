@@ -1,0 +1,103 @@
+ 
+.gm-nav-inner{
+
+}
+.gm-nav-inner>li{
+	float: left;
+	height: 40px;
+	list-style: none;
+	vertical-align: top;
+}
+.gm-nav-inner>li>a {
+	padding: 10px;
+	color: #919596;
+	font-size: 14px;
+	text-decoration: none;
+}
+ .gm-section{
+	display: block;
+	background-color: #65b3b9;
+	padding: 10px;
+	margin-bottom: 24px;
+	border-radius: 4px;
+	
+	text-decoration: none;
+	line-height: 150%;
+ }
+ .gm-section-red{
+ 	background-color: #db5640;
+ 	color: #f3f3f9;
+ }
+ .gm-section-red .gm-section-icon .glyphicon{
+ 	color:  #db5640;
+ }
+ .gm-section-blue{
+ 	background-color: #5e7ba7;
+ 	color:#f0f0f0;
+ }
+ .gm-section-blue .gm-section-icon .glyphicon{
+ 	color:  #5e7ba7;
+ }
+ .gm-section-yellow{
+ 	background-color: #e6bc3c;
+ 	color:  #5e7ba7;
+ }
+ .gm-section-yellow .gm-section-icon .glyphicon{
+ 	color:  #e6bc3c;
+ }
+ .gm-section-green{
+ 	background-color: #87b44e;
+ 	color:  #cbdfb2;
+ }
+ .gm-section-green .gm-section-icon .glyphicon{
+ 	color:  #87b44e;
+ }
+
+ 
+.gm-section-inner{
+	border: 1px dashed rgba(255, 255, 255, 0.4);
+	border-radius: 3px;
+	padding: 16px;
+} 
+.gm-section-icon{
+	width: 110px;
+	height: 110px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background-color: #f9f9f3;
+	text-align: center;
+}
+@keyframes zoom-icon
+{
+	from {font-size: 30px}
+	to  {font-size: 40px}
+
+}
+
+@-moz-keyframes zoom-icon /* Firefox */
+{
+	from {font-size: 30px}
+	to  {font-size: 40px}
+}
+
+@-webkit-keyframes zoom-icon /* Safari 和 Chrome */
+{
+	from {font-size: 30px}
+	to  {font-size: 40px}
+}
+
+@-o-keyframes zoom-icon /* Opera */
+{
+	from {font-size: 30px}
+	to  {font-size: 40px}
+}
+.gm-section-icon .glyphicon{
+	font-size: 30px;
+	line-height: 110px;
+	
+}
+.gm-section:hover .gm-section-icon .glyphicon{
+	animation: zoom-icon 400ms;
+	-webkit-animation: zoom-icon 400ms;
+	font-size: 40px;
+}
