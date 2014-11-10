@@ -25,3 +25,9 @@ body{
 	float: left;
 	width:48.33333%;
 }
+.gl-clearfix:after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}

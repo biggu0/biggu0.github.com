@@ -15,13 +15,10 @@
 	text-decoration: none;
 }
  .gm-section{
-	display: block;
 	background-color: #65b3b9;
 	padding: 10px;
 	margin-bottom: 24px;
 	border-radius: 4px;
-	
-	text-decoration: none;
 	line-height: 150%;
  }
  .gm-section-red{
@@ -60,6 +57,7 @@
 	padding: 16px;
 } 
 .gm-section-icon{
+	display: block;
 	width: 110px;
 	height: 110px;
 	margin: 0 auto;
@@ -96,8 +94,57 @@
 	line-height: 110px;
 	
 }
-.gm-section:hover .gm-section-icon .glyphicon{
+.gm-section-icon:hover .glyphicon{
 	animation: zoom-icon 400ms;
 	-webkit-animation: zoom-icon 400ms;
 	font-size: 40px;
+}
+.gm-section-article{
+	width: 90%;
+	margin: 0 auto;
+	padding: 8px 0;
+}
+.gm-section-article li{
+	margin: 15px 0;
+	line-height: 100%;
+}
+.gm-section-article li a{
+	vertical-align: top;
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+.gm-section-article li a:hover {
+	color:#e6bc3c;
+} 
+
+.gm-section-article li span{
+	display: inline-block;
+	width: 18em; 
+	overflow: hidden;
+	text-overflow: ellipsis; 
+	white-space: nowrap; 
+	margin-right:8px;
+}
+.gm-section-img{
+	margin-top: 10px;
+}
+.gm-section-img img{
+	float: left;
+	width: 24%;
+	border:2px solid #fff;
+	margin-right: 1%;
+}
+.gm-section-tags{
+	margin: 10px 0;
+}
+.gm-section-tags a{
+	float: left;
+	margin: 6px;
+	padding: 4px 8px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	background-color: #f9f9f3;
+	text-decoration: none;
+
 }
